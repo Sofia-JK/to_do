@@ -1,0 +1,83 @@
+:root, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url('./assets/font.png');
+}
+
+@font-face {
+  font-family: Junegull;
+  src: url('./assets/text/junegull.ttf');
+}
+
+.zametka{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p{
+  color: #fff;
+  font-family: Junegull;
+  font-size: 48px;
+  margin-top: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  gap: 30px;
+}
+
+input{
+  min-width: 410px;
+  padding: 14px 166px 14px 24px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 3px solid #CD65FE;
+  color: black;
+  font-size: 24px;
+}
+
+.dob{
+  width: 166px;
+  height: 57px;
+  padding: 14px 20px;
+  background-color: #CD65FE;
+  border-radius: 30px;
+  border: 0px;
+  color: #fff;
+  font-family: Junegull;
+  font-size: 24px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.todo{
+  width: 410px;
+  padding: 14px 24px 14px 24px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 3px solid #CD65FE;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
